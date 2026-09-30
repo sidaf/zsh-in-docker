@@ -118,10 +118,10 @@ zshrc_template() {
     fi
 
     cat <<EOM
-export LANG='en_US.UTF-8'
-export LANGUAGE='en_US:en'
-export LC_ALL='en_US.UTF-8'
-[ -z "$TERM" ] && export TERM=xterm
+export LANG='en_GB.UTF-8'
+export LANGUAGE='en_GB:en'
+export LC_ALL='en_GB.UTF-8'
+[ -z "\$TERM" ] && export TERM=xterm
 
 ##### Zsh/Oh-my-Zsh Configuration
 export ZSH="$_HOME/.oh-my-zsh"

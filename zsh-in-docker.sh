@@ -118,9 +118,11 @@ zshrc_template() {
     fi
 
     cat <<EOM
+##### Language
 export LANG='en_GB.UTF-8'
 export LANGUAGE='en_GB:en'
 export LC_ALL='en_GB.UTF-8'
+
 [ -z "\$TERM" ] && export TERM=xterm
 
 ##### Zsh/Oh-my-Zsh Configuration
@@ -136,6 +138,8 @@ EOM
 
 powerline10k_config() {
     cat <<EOM
+
+##### Powerlevel9k Configuration
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs status)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()

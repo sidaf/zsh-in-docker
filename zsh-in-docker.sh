@@ -119,9 +119,8 @@ zshrc_template() {
 
     cat <<EOM
 ##### Language
-export LANG='en_GB.UTF-8'
-export LANGUAGE='en_GB:en'
-export LC_ALL='en_GB.UTF-8'
+export LANG='C.UTF-8'
+export LC_ALL='C.UTF-8'
 
 [ -z "\$TERM" ] && export TERM=xterm
 
